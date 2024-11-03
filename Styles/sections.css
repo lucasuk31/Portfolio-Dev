@@ -1,0 +1,96 @@
+#intro {
+  background-image: url(../Assets/Images/Background_Intro.png);
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  #info {
+    /* border: 1px solid yellow; */
+    width: 1040px;
+    margin: 120px auto 94px;
+
+    header {
+      /* border: 1px solid blue; */
+      justify-items: center;
+      width: 680px;
+      margin: auto;
+      margin-bottom: 80px;
+
+      #avatar {
+        /* border: 1px solid green; */
+        width: 96px;
+        height: 96px;
+        position: relative;
+        margin-bottom: 56px;
+
+        #profile {
+          width: 87.27px;
+          border: 2px solid var(--red);
+          border-radius: 50%;
+          padding: 4.36px;
+          margin-bottom: 56px;
+        }
+
+        #code {
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+
+      #text {
+        p:nth-child(1) {
+          font: var(--subtitle);
+          color: var(--gray-500);
+          span {
+            color: var(--red);
+          }
+        }
+        h1 {
+          margin: 8px 0 20px;
+          font: var(--title-lg);
+          color: var(--gray-600);
+        }
+        p:nth-child(3) {
+          font: var(--text-sm);
+          color: var(--gray-400);
+        }
+      }
+    }
+    #tags {
+      /* border: 1px solid plum; */
+      width: 754px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+
+      .content-tag {
+        background-color: var(--gray-300);
+        border-radius: 999px;
+        color: var(--gray-500);
+        font: var(--text-md);
+        padding: 8px 16px;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+
+        .tag-icon {
+          width: 24px;
+          aspect-ratio: 1/1;
+          #HTML {
+            fill: var(--red);
+          }
+        }
+      }
+    }
+  }
+
+  #double-down {
+    width: 32px;
+    margin: auto;
+    padding-bottom: 57px;
+  }
+}
