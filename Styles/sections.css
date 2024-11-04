@@ -94,3 +94,60 @@
     padding-bottom: 57px;
   }
 }
+
+#projects {
+  background-color: var(--gray-200);
+  justify-items: center;
+  padding: 72px 0 144px;
+
+  header {
+    /* border: 1px solid paleturquoise; */
+    width: 1040px;
+    text-align: center;
+    margin-bottom: 56px;
+    span {
+      color: var(--red);
+      font: var(--subtitle);
+    }
+    h3 {
+      color: var(--gray-600);
+      font: var(--title-md);
+    }
+  }
+
+  #grid {
+    width: 1040px;
+    display: grid;
+    grid-template-areas: 
+    "A B C"
+    "D E F";
+    gap: 24px;
+
+    .project-image {
+      width: 306px;
+      border-radius: 8px;
+    }
+
+    figure {
+      width: 330px;
+      padding: 12px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+      figcaption {
+        padding: 5px 0 5px;
+        h3 {
+          color: var(--gray-600);
+          font: var(--title-sm);
+          margin-bottom: 8px;
+        }
+        p {
+          color: var(--gray-500);
+          font: var(--text-sm);
+        }
+      }
+      &:hover {
+        border: 1.5px solid var(--gray-600);
+      }
+    }
+  }
+}
