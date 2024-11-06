@@ -1,0 +1,18 @@
+.span {
+  color: var(--red);
+  font: var(--subtitle);
+}
+.h3 {
+  color: var(--gray-600);
+  font: var(--title-md);
+}
+
+.h3-figcaption {
+  color: var(--gray-600);
+  font: var(--title-sm);
+  margin-bottom: 8px;
+}
+.p-figcaption {
+  color: var(--gray-500);
+  font: var(--text-sm);
+}
