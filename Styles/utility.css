@@ -16,3 +16,10 @@
   color: var(--gray-500);
   font: var(--text-sm);
 }
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
